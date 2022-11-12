@@ -1,6 +1,6 @@
 Package: dev.extbh.fixpay14
 Name: Apple Pay iOS 14
-Version: 0.0.1
+Version: 0.0.1-1
 Architecture: iphoneos-arm
 Description: Fuck Apple for stopping apple pay on iOS 14.
   Source code https://github.com/ExTBH/iOS14-fix-apple-pay
@@ -8,5 +8,5 @@ Description: Fuck Apple for stopping apple pay on iOS 14.
 Maintainer: ExTBH <natheer@extbh.dev>
 Author: ExTBH <natheer@extbh.dev>
 Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<= 14.8)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<= 14.9.9)
 Icon: https://raw.githubusercontent.com/ExTBH/iOS14-fix-apple-pay/master/icon.png

@@ -9,4 +9,8 @@ TWEAK_NAME = ApplePayfixforiOS14
 ApplePayfixforiOS14_FILES = Tweak.x
 ApplePayfixforiOS14_CFLAGS = -fobjc-arc
 
+ApplePayfixforiOS14_EXTRA_FRAMEWORKS += Cephei
+
 include $(THEOS_MAKE_PATH)/tweak.mk
+SUBPROJECTS += prefs
+include $(THEOS_MAKE_PATH)/aggregate.mk

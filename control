@@ -1,10 +1,12 @@
 Package: dev.extbh.fixpay14
 Name: Apple Pay iOS 14
-Version: 0.0.2
+Version: 0.0.2-1
 Architecture: iphoneos-arm
 Description: Fuck Apple for stopping apple pay on iOS 14.
   Source code https://github.com/ExTBH/iOS14-fix-apple-pay
   Icon https://www.iconfinder.com/icons/4923044/apple_pay_icon
+  0.0.2-1:
+    Works Globally by hooking PassKitCore
   0.0.2:
     Better Performance and added Preferences
 Maintainer: ExTBH <natheer@extbh.dev>

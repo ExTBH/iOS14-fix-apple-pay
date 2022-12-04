@@ -32,7 +32,7 @@ static NSString *getOSBuildNumber(void){
 }
 
 @class PKPaymentDevice;
-static NSString *(*orig_PKPaymentDevice_clientInfoHTTPHeader)(PKPaymentDevice *self, SEL _cmd);
+static NSString *(*orig_PKPaymentDevice_clientInfoHTTPHeader)(PKPaymentDevice*, SEL);
 
 static NSString *override_PKPaymentDevice_clientInfoHTTPHeader(PKPaymentDevice *self, SEL _cmd){
     NSString *header = orig_PKPaymentDevice_clientInfoHTTPHeader(self, _cmd);

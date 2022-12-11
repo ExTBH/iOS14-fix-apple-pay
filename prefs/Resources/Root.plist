@@ -56,7 +56,7 @@
 			<key>label</key>
 			<string>Idk Others</string>
 			<key>footerText</key>
-			<string>Licensed under the WTFPL By @ExTBH</string>
+			<string>Licensed under the Unlicense By @ExTBH</string>
 		</dict>
 		<dict>
 			<key>cellClass</key>
@@ -84,7 +84,7 @@
 			<key>label</key>
 			<string>License</string>
 			<key>url</key>
-			<string>http://www.wtfpl.net/</string>
+			<string>https://unlicense.org/</string>
 		</dict>
 	</array>
 	<key>title</key>

@@ -17,8 +17,8 @@
 
 > If you are going to patch it, get the right version of  Wallet App for your Device.
 
-## Download
+### Download
 
-> The Below contains Patched Wallet App for iOS 14.3, USE AT YOUR OWN RISK. 
+> The Below contains Patched Wallet App for iOS 14.3, USE AT YOUR OWN RISK. In theory this should work for all supported iOS versions by TrollStore, but yyou should Patch the Wallet app for YOUR version and use it.
 
 [Releases](https://github.com/ExTBH/iOS14-fix-apple-pay/releases)

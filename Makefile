@@ -1,7 +1,6 @@
 TARGET := iphone:clang:latest:13.0
 INSTALL_TARGET_PROCESSES = Passbook
 
-
 include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = ApplePayfixforiOS14
@@ -17,14 +16,8 @@ include $(THEOS_MAKE_PATH)/tweak.mk
 
 ifeq ($(TROLLSTORE), 1)
 ApplePayfixforiOS14_CFLAGS = -fobjc-arc -DTROLLSTORE=1
-before-package::
-	$(info "###################################")
-	$(info "###################################")
-	$(info "###################################")
-	$(info "    COMPILING FOR TROLLSTORE")
-	$(info "###################################")
-	$(info "###################################")
-	$(info "###################################")
+before-all::
+	$(ECHO_BEGIN)$(PRINT_FORMAT_YELLOW) "Compiling For TROLLSTORE"$(ECHO_END)
 else
 ApplePayfixforiOS14_EXTRA_FRAMEWORKS += Cephei
 SUBPROJECTS += prefs
